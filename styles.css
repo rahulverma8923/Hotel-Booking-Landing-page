@@ -1,0 +1,830 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Footer Section Styles */
+.footer-section {
+    background-color: #181818;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* Footer Column Styles */
+.footer-column {
+    width: 22%;
+    text-align: left;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ff9800;
+}
+
+.footer-column p,
+.footer-column ul,
+.footer-column a {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #ffffff;
+}
+
+/* Social Icons */
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    border-top: 1px solid #252525;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Newsletter Section Styles */
+.newsletter-section {
+    padding: 60px 20px;
+    background-color: #181818;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.newsletter-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff9800;
+}
+
+.newsletter-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #b3b3b3;
+}
+
+/* Newsletter Form Styles */
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 15px;
+    width: 70%;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    color: #121212;
+}
+
+.newsletter-form button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff9800;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #e68900;
+}
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Special Offers Section Styles */
+.special-offers-section {
+    padding: 60px 20px;
+    background-color: #181818;
+    background-image: url('img/offer.png');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.special-offers-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Offer Card Styles */
+.offer-card {
+    background-color: #252525;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.offer-card:hover {
+    transform: translateY(-10px);
+}
+
+.offer-image {
+    position: relative;
+}
+
+.offer-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.offer-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff9800;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.offer-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.offer-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.offer-info p {
+    font-size: 16px;
+    color: #b3b3b3;
+    margin-bottom: 20px;
+}
+
+.offer-info button {
+    background-color: #ff9800;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.offer-info button:hover {
+    background-color: #e68900;
+}
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Popular Destinations Section Styles */
+.popular-destinations-section {
+    padding: 60px 20px;
+    background-color: #181818;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.popular-destinations-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ff9800;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Destination Card Styles */
+.destination-card {
+    background-color: #252525;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 270px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.destination-card:hover {
+    transform: translateY(-10px);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destination-info {
+    padding: 20px;
+}
+
+.destination-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.destination-info p {
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Testimonials Section Styles */
+.testimonials-section {
+    padding: 60px 20px;
+    background-color: #181818;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ff9800;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Testimonial Card Styles */
+.testimonial-card {
+    background-color: #252525;
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #b3b3b3;
+}
+
+.testimonial-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.testimonial-card span {
+    font-size: 14px;
+    color: #ff9800;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Why Choose Us Section Styles */
+.why-choose-us-section {
+    padding: 60px 20px;
+    background-color: #181818;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-choose-us-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ff9800;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Benefit Card Styles */
+.benefit-card {
+    background-color: #252525;
+    border-radius: 15px;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+}
+
+.benefit-card i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ff9800;
+}
+
+.benefit-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.benefit-card p {
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Header Section Styles */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background-image: url('img/banner.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* Search Form Styles */
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.search-input {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.search-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff9800;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #e68900;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Featured Section Styles */
+.featured-section {
+    padding: 60px 20px;
+    background-color: #181818;
+    background-image: url(img/banner2.jpg); 
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.featured-hotels {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Hotel Card Styles */
+.hotel-card {
+    background-color: #252525;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+    transform: translateY(-10px);
+}
+
+.hotel-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hotel-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.hotel-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.hotel-info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+.hotel-info p:nth-child(2) {
+    color
+
+  /* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Why Choose Us Section Styles */
+.why-choose-us-section {
+    padding: 60px 20px;
+    background-color: #181818;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-choose-us-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ff9800;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Benefit Card Styles */
+.benefit-card {
+    background-color: #252525;
+    border-radius: 15px;
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+}
+
+.benefit-card i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ff9800;
+}
+
+.benefit-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.benefit-card p {
+    font-size: 16px;
+    color: #b3b3b3;
+}
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .footer-column {
+        width: 30%;
+    }
+
+    .offer-card,
+    .destination-card {
+        width: 280px;
+    }
+
+    .benefit-card {
+        width: 280px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-column {
+        width: 45%;
+    }
+
+    .offer-card,
+    .destination-card,
+    .benefit-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .nav-actions {
+        margin-top: 10px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .offer-card,
+    .destination-card,
+    .benefit-card {
+        width: 100%;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .newsletter-section h2 {
+        font-size: 28px;
+    }
+
+    .newsletter-section p {
+        font-size: 16px;
+    }
+
+    .offer-card,
+    .destination-card,
+    .benefit-card {
+        width: 100%;
+    }
+
+    .footer-column h3 {
+        font-size: 18px;
+    }
+
+    .footer-column p,
+    .footer-column ul li a {
+        font-size: 12px;
+    }
+}
